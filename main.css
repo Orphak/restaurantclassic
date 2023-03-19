@@ -104,6 +104,21 @@ h3{
      color:#8600b3;
       font-size:20px;  
 }
+.products{
+    display:flex;
+}
+.eleven img{
+    width:7em;
+    height:5em;
+}
+.twelve img{
+    width:7em;
+    height:5em;
+}
+.foood img{
+    width:7em;
+    height:5em;
+}
 @media screen and (max-width:600px){
     .aboutt{
         border: 0px solid aqua;
@@ -290,7 +305,7 @@ h2{
 @media screen and (max-width:600px){
     .content{
        width:400px;
-       height:1600px;
+       height:1000px;
        margin-left:1em;
        display: block;
     }
@@ -334,10 +349,10 @@ h2{
 }
 }
 
-@media screen and (max-width:900px) and (min-width:601px){
+@media screen and (max-width:1000px) and (min-width:601px){
    .content{
     width:400px;
-    height:1600px;
+    height:1000px;
     margin-left:1em;
     display: block;
    }
@@ -382,7 +397,180 @@ h2{
     padding-top: 0.5em;
  }
     } 
-    /**************************************contact us********************************/
+/***************************TESTIMONY**************************************************/
+.testimony{
+    border: 0px solid #000;
+     height:28em;
+}
+.testimony h3{
+    margin-top:0em;
+    color: #e60073;
+}
+.all-testimony{
+    justify-content: space-around;
+    display:flex;
+}
+#test1{
+    border: 0px solid black;
+    width:15em;
+    height:20em;
+    background-color:white;
+    border-top-left-radius:2em;
+    border-bottom-right-radius:2em ;
+}
+#test1:hover{
+    transform: rotate(360deg);
+    transition: 0.5s;
+    background-color:pink;
+}
+#test1 img{
+    width:7em;
+    height:6em;
+   margin-left:4em;
+   margin-top:1em;
+}
+#test1 p{
+    margin-left:0.5em;
+    padding-top:1em;
+}
+#test1 h4{
+    font-size:1.5em;
+    padding-top:1em;
+    padding-left:0.7em;
+}
+#test2{
+    border: 0px solid black;
+    width:15em;
+    height:20em;
+    background-color:white;
+    border-top-right-radius:2em;
+    border-bottom-left-radius:2em ;
+}
+#test2:hover{
+    transform:rotate(360deg);
+    transition:0.5s;
+    background-color:pink;
+}
+#test2 img{
+    width:7em;
+    height:6em;
+   margin-left:4em;
+   margin-top:1em;
+}
+#test2 p{
+    margin-left:0.5em;
+    padding-top:1em;
+}
+#test2 h4{
+    font-size:1.5em;
+    padding-top:1em;
+    padding-left:0.7em;
+}
+#test3{
+    border: 0px solid black;
+    width:15em;
+    height:20em;
+    background-color:white;
+    border-top-left-radius:2em;
+    border-bottom-right-radius:2em ;
+}
+#test3:hover{
+    transform: rotate(360deg);
+    transition: 0.5s;
+    background-color:pink;
+}
+#test3 img{
+    width:7em;
+    height:6em;
+   margin-left:4em;
+   margin-top:1em;
+}
+#test3 p{
+    margin-left:0.5em;
+  
+    padding-top:1em;
+}
+#test3 h4{
+    font-size:1.5em;
+    padding-top:1em;
+    padding-left:0.7em;
+}
+#test4{
+    border: 0px solid black;
+    width:15em;
+    height:20em;
+    background-color:white;
+    border-top-right-radius:2em;
+    border-bottom-left-radius:2em ;
+}
+#test4:hover{
+    transform: rotate(360deg);
+    transition: 0.5s;
+    background-color:pink;
+}
+#test4 img{
+    width:7em;
+    height:6em;
+   margin-left:4em;
+   margin-top:1em;
+}
+#test4 p{
+    margin-left:0.5em;
+    padding-top:1em;
+}
+#test4 h4{
+    font-size:1.5em;
+    padding-top:1em;
+    padding-left:0.7em;
+}
+@media screen and (max-width:600px){
+.testimony{
+    height:1400px;
+}
+.testimony h3{
+       font-size:2em;
+}
+.all-testimony{
+    display:block;
+    margin-left:2em;
+    padding-top:2em;
+}  
+#test2{
+    margin-top:1em;
+}
+#test3{
+    margin-top:1em;
+}
+#test4{
+    margin-top:1em;
+}
+}
+@media (max-width:1000px) and (min-width:601px){
+    .testimony{
+        height:1500px;
+    }
+    .all-testimony{
+        display:block;
+    }
+    .testimony h3{
+        font-size:2em;
+ }
+ .all-testimony{
+     display:block;
+     margin-left:2em;
+     padding-top:2em;
+ }  
+ #test2{
+     margin-top:1em;
+ }
+ #test3{
+     margin-top:1em;
+ }
+ #test4{
+     margin-top:1em;
+ }
+}
+/**************************************contact us********************************/
 .cont{
     border: 0px solid black;
     display:flex;
